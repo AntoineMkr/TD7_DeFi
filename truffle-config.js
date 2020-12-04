@@ -45,7 +45,7 @@ module.exports = {
     //  network_id: "*",       // Any network (default: none)
     // },
     rinkeby: {
-      provider: ()=>  new HDWalletProvider({mnemonic: process.env.mnemonic, providerOrUrl: "https://rinkeby.infura.io/v3/"+process.env.infuraPubKey}),
+      provider: ()=>  new HDWalletProvider({mnemonic: process.env.MNENOMIC, providerOrUrl: "https://rinkeby.infura.io/v3/"+process.env.INFURA_API_KEY}),
       network_id: '*',
       gas: 4612388 // Gas limit used for deploys
     }
