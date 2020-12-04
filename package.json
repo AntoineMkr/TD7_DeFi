@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^3.3.0",
-    "@uniswap/sdk": "^3.0.3"
+    "@uniswap/sdk": "^3.0.3",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {},
   "scripts": {
