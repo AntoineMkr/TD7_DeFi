@@ -1,6 +1,6 @@
 pragma solidity >=0.4.22 <0.8.0;
 
-contract OxYYYY{
+contract OxYYYYInterface{
     function claimTokens() public {}
     function approve(address spender, uint256 amount) public returns (bool) {}
     function decreaseAllowance(address spender, uint256 subtractedValue)        public        returns (bool)    {}
@@ -35,7 +35,7 @@ contract OxZZZZ{
     mapping(address => uint256) public liquidityTokens;
 
     address tokenAddress = 0xeE528BFfb58B26d0953e06DcA0E2D8961Ddc2Dd4;
-    OxYYYY token = OxYYYY(tokenAddress);
+    OxYYYYInterface token = OxYYYYInterface(tokenAddress);
 
 
     constructor ()public{
